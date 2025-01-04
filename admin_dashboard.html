@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - ACADEMIC WAY</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                  <img src="images/logo for ACADEMIC WAY.png" alt="ACADEMIC WAY Logo" class="logo-image">
+                  <li><a href="index.html">ACADEMIC WAY</a></li>
+                </a>
+            </div>
+            <ul class="nav-links">
+                 <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="opportunities.html">Opportunities</a></li>
+                <li><a href="pdfs.html">PDFs</a></li>
+                 <li><a href="scholarships.html">Scholarships</a></li>
+                <li><a href="about.html">About Us</a></li>
+                 <li>
+                    <div class="auth-links">
+                      <a href="profile.html">Profile</a>
+                        <a href="logout.html">Logout</a>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+          <section class="admin-dashboard-section">
+                <div class="admin-dashboard-container">
+                <h2>Admin Dashboard</h2>
+                <p>Manage Website Content and Users:</p>
+
+                    <div class="admin-dashboard-grid">
+                        <a href="manage_users.html" class="admin-dashboard-card">
+                             <i class="fas fa-users"></i>
+                             <h3>Manage Users</h3>
+                            <p>View and manage registered users.</p>
+                        </a>
+
+                         <a href="manage_courses.html" class="admin-dashboard-card">
+                               <i class="fas fa-book"></i>
+                            <h3>Manage Courses</h3>
+                             <p>Add, update, and delete courses.</p>
+                        </a>
+
+                       <a href="manage_opportunities.html" class="admin-dashboard-card">
+                           <i class="fas fa-briefcase"></i>
+                           <h3>Manage Opportunities</h3>
+                            <p>Approve new job/internship listings.</p>
+                        </a>
+                        <a href="manage_pdfs.html" class="admin-dashboard-card">
+                           <i class="fas fa-file-pdf"></i>
+                            <h3>Manage PDFs</h3>
+                            <p>Add, update, and delete PDF resources.</p>
+                        </a>
+                         <a href="manage_scholarships.html" class="admin-dashboard-card">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h3>Manage Scholarships</h3>
+                             <p>Add, update, and delete scholarship opportunities.</p>
+                        </a>
+                        <a href="site_settings.html" class="admin-dashboard-card">
+                             <i class="fas fa-cog"></i>
+                             <h3>Site Settings</h3>
+                            <p>Customize site appearance.</p>
+                        </a>
+                    </div>
+                </div>
+          </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 ACADEMIC WAY</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
